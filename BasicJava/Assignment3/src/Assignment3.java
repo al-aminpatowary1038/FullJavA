@@ -37,6 +37,6 @@ public class Assignment3 {
         System.out.println("Product Price: " + price);
         System.out.println("Product Description: " + description);
         System.out.println("Product Category: " + category);
-
+        input.close();
     }
 }

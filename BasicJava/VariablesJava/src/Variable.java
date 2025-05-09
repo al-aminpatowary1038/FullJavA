@@ -1,5 +1,3 @@
-import java.net.SocketPermission;
-
 public class Variable {
     public static void main(String[] args) {
         boolean b = true;

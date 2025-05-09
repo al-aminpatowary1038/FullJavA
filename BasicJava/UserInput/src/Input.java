@@ -19,6 +19,7 @@ public class Input {
         System.out.println("You entered: " + a);
         System.out.println("You entered: " + n1);
         System.out.println("You entered: " + ch);
+        input.close();
 
     }
 }
