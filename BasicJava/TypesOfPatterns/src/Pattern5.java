@@ -1,26 +1,25 @@
 /*
- 1 2 3 4
- 1 2 3
- 1 2
  1
-
+ 2 2
+ 3 3 3
+ 4 4 4 4
+ 
  */
 
 import java.util.Scanner;
 
-public class Pattern3 {
+public class Pattern5 {
     public static void main(String[] args) {
-        int a;
+        int line;
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter The No. of Line You Want: ");
-        a = input.nextInt();
-        for (int row = a; row > 0; row--) {
+        System.out.print("Enter the number of line you want: ");
+        line = input.nextInt();
+        for (int row = 1; row <= line; row++) {
             for (int col = 1; col <= row; col++) {
-                System.out.print(" " + col);
+                System.out.print(" " + row);
             }
             System.out.println();
         }
         input.close();
     }
-
 }
